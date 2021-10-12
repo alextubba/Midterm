@@ -1,0 +1,126 @@
+/* do not touch the code below here. Start all your code at the "START YOUR CSS HERE" line. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar*/
+.mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+  }
+  .mainNav li {
+    float: left;
+  }
+  .mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainNav li a:hover {
+    background-color: dodgerblue;
+  }
+/* Write all your code below this line */
+body {
+  font-family: sans-serif;
+}
+
+.jumbotron {
+  background: lightblue url(/images/image1.jpg) no-repeat fixed center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  font-size: 3em;
+}
+
+#welcomeMessage {
+  margin-top: 150px;
+}
+
+#welcomeMessage > h1 {
+  text-align: center;
+  font-size:  2.5em;
+}
+
+#welcomeMessage > h2 {
+  text-align: center;
+  font-size:  2.5em;
+  margin-bottom: 10px;
+}
+
+#favoriteFoodList {
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #111;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style-position: inside;
+  padding: 20px;
+  background-color: dodgerBlue;
+  color:white;
+  font-size: 20px;
+}
+
+.articles{
+  margin: 50px;
+  border: solid 2px #111;
+}
+  .articles > h1 {
+    color:white;
+    background-color: #111;
+    padding: 15px;
+    font-size: 36px;
+  }
+
+  .articles > p {
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .articles > figure { 
+    padding: 15px;
+  }
+
+  .articles > figcaption { 
+    font-style: italic;
+    font-weight: bold;
+  }
+
+aside > p {
+  color: dodgerblue;
+  font-style: italic;
+}
+
+figure > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+header > h1 {
+  background-color: black;
+  color:white;
+  padding: 15px;
+  font-size: 2em;
+}
+.MainList {
+  list-style-position: inside;
+  text-align: center;
+  background-color:steelblue;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border: black solid 2px;
+  color:white;
+}
+
+/* START YOUR CSS HERE */
